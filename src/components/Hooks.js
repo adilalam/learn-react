@@ -28,7 +28,13 @@ function Hooks() {
     const [data, setData] = useState(0)
 
     // this place for call an api for first time
-    useEffect(() => {}, [])
+    useEffect(() => { }, [])
+    
+    // use for call/invoke function
+    // ()
+
+    // use for doing some task inside that function, after invoking/calling
+    // () => {}
     
 
     // this place for render in UI (browser) this part also call jsx part, react compile it to HTML before rendering
