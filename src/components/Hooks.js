@@ -1,13 +1,42 @@
-import React, { Component } from 'react'
+import React, { useState, useEffect } from 'react'
 
-class Hooks extends Component {
-    render() {
-        return (
-            <div>
-                hook component
-            </div>
-        )
-    }
+// class component
+// class Hooks extends Component {
+
+//     state = {
+//         // this place for varibale initialization
+//     }
+
+//     componentDidMount() {
+//         // this place for call an api for first time
+//     }
+
+
+//     // this place for render in UI (browser)
+//     render() {
+//         return (
+//             <div>
+//                 hook component
+//             </div>
+//         )
+//     }
+// }
+
+function Hooks() {
+
+    // this place for varibale initialization
+    const [data, setData] = useState(0)
+
+    // this place for call an api for first time
+    useEffect(() => {}, [])
+    
+
+    // this place for render in UI (browser)
+    return (
+        <div>
+            hi there
+        </div>
+    )
 }
 
 export default Hooks
