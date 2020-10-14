@@ -31,7 +31,7 @@ function Hooks() {
     useEffect(() => {}, [])
     
 
-    // this place for render in UI (browser)
+    // this place for render in UI (browser) this part also call jsx part, react compile it to HTML before rendering
     return (
         <div>
             hi there
