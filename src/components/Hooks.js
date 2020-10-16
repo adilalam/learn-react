@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 // class component
 // class Hooks extends Component {
@@ -43,7 +44,23 @@ function Hooks() {
     if (!username) {
       alert("Please provide text to add");
     } else {
-      alert(username);
+      // alert(username);
+      axios({
+        method: "POST",
+        url: `https://evening-cove-22757.herokuapp.com/todos/`,
+        headers: {
+          "Content-Type": "application/json",
+        },
+        data: {
+          text: username
+        }
+      })
+        .then((response) => {
+          console.log(response);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
     }
   };
 
