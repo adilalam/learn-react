@@ -1,27 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-// class component
-// class Hooks extends Component {
-
-//     state = {
-//         // this place for varibale initialization
-//     }
-
-//     componentDidMount() {
-//         // this place for call an api for first time
-//     }
-
-//     // this place for render in UI (browser)
-//     render() {
-//         return (
-//             <div>
-//                 hook component
-//             </div>
-//         )
-//     }
-// }
-
 function Hooks() {
   // this place for varibale initialization
   const [userdata, setUserdata] = useState([]);
