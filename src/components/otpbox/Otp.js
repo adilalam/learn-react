@@ -19,8 +19,8 @@ function OTPInputComponent(props) {
   
   // Helper to return OTP from inputs
   const handleOtpChange = useCallback(
-    (otp) => {
-      const otpValue = otp.join("");
+    (e) => {
+      const otpValue = e.join("");
       onChangeOTP(otpValue);
     },
     [onChangeOTP]
