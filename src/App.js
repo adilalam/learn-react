@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 // import Test from "./components/Test";
-import Hooks from "./components/Hooks";
+// import Hooks from "./components/Hooks";
 // import OTP from "./components/otpbox/Otp";
+import Form from "./components/Form";
 import "./App.css";
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
   return (
     <div>
       {/* <Test /> */}
-      <Hooks />
+      <Form />
       {/* <OTP
         autoFocus
         isNumberInput
