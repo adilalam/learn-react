@@ -2,7 +2,7 @@ import React from "react";
 // import Test from "./components/Test";
 // import Hooks from "./components/Hooks";
 // import OTP from "./components/otpbox/Otp";
-import Form from "./components/Form";
+// import Form from "./components/Form";
 import "./App.css";
 import One from "./components/play/One";
 
