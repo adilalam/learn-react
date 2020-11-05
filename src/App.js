@@ -3,6 +3,7 @@ import React from "react";
 import Hooks from "./components/Hooks";
 // import OTP from "./components/otpbox/Otp";
 import "./App.css";
+import One from "./components/play/One";
 
 function App() {
   // const [arr, setArr] = useState(Array(3).fill(""));
@@ -31,7 +32,7 @@ function App() {
   return (
     <div>
       {/* <Test /> */}
-      <Hooks />
+      <One />
       {/* <OTP
         autoFocus
         isNumberInput
