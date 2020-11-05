@@ -39,6 +39,7 @@ function Hooks() {
 
   const inputChangeHandler = (event) => {
     setUsername(event.target.value);
+    console.log(event.target.value);
   };
 
   const submitHandler = (e) => {
